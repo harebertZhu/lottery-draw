@@ -81,8 +81,8 @@ h2 {
 
 h1 {
   color: var(--accent-dark);
-  max-width: 760px;
-  font-size: clamp(1.9rem, 4.2vw, 3.25rem);
+  max-width: 680px;
+  font-size: clamp(1.55rem, 3vw, 2.5rem);
   font-weight: 700;
   line-height: 1.18;
   letter-spacing: 0;
