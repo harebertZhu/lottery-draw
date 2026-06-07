@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>上外附中食堂评选家长代表选取</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="select-panel" aria-label="家长代表选取面板">
+        <div class="topbar">
+          <img class="school-logo" src="./sfls-logo.jpg" alt="上外附中校徽" />
+          <h1>上外附中食堂评选家长代表选取</h1>
+        </div>
+
+        <div class="stage" id="stage">
+          <div id="rollingName" class="rolling-name">准备开始</div>
+          <div id="rollingClass" class="rolling-class">名单已就绪</div>
+        </div>
+
+        <div class="controls">
+          <label class="field">
+            <span>代表人数</span>
+            <input id="targetCount" type="number" min="1" value="1" />
+          </label>
+          <button id="startBtn" type="button">开始滚动</button>
+          <button id="selectBtn" type="button" disabled>确认一位</button>
+          <button id="resetBtn" type="button">重置</button>
+        </div>
+
+        <div class="progress-line">
+          <span id="statusText">请设置人数后开始。</span>
+          <span id="progressText">0 / 1</span>
+        </div>
+      </section>
+
+      <section class="result-panel" aria-label="家长代表名单">
+        <div class="panel-header">
+          <h2>家长代表名单</h2>
+          <span id="winnerCount">0 人</span>
+        </div>
+        <ol id="winnerList" class="winner-list empty">
+          <li>等待确认</li>
+        </ol>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
