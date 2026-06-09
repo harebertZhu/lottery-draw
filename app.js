@@ -12,9 +12,9 @@ const winnerCount = document.querySelector("#winnerCount");
 const candidates = [
   { id: "p2", name: "常耕源", className: "高二1班", probability: 0 },
   { id: "p3", name: "陈欣雨", className: "", probability: 0 },
-  { id: "p4", name: "胡凯文", className: "离校", probability: 10 },
+  { id: "p4", name: "胡凯文", className: "离校", probability: 0 },
   { id: "p5", name: "刘羽梵", className: "高二4班", probability: 10 },
-  { id: "p6", name: "徐艺泓", className: "离校", probability: 10 },
+  { id: "p6", name: "徐艺泓", className: "离校", probability: 0 },
   { id: "p7", name: "杨思颖", className: "高二3班", probability: 0 },
   { id: "p8", name: "章楚依", className: "高二3班", probability: 10 },
   { id: "p9", name: "高浩茗", className: "高一2班", probability: 100 },
