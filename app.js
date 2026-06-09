@@ -17,7 +17,7 @@ const candidates = [
   { id: "p6", name: "徐艺泓", className: "离校", probability: 0 },
   { id: "p7", name: "杨思颖", className: "高二3班", probability: 0 },
   { id: "p8", name: "章楚依", className: "高二3班", probability: 10 },
-  { id: "p9", name: "高浩茗", className: "高一2班", probability: 100 },
+  { id: "p9", name: "高浩茗", className: "高一2班", probability: 40 },
   { id: "p10", name: "彭子凌", className: "高一1班", probability: 10 },
   { id: "p11", name: "乔彦谦", className: "高一1班", probability: 10 },
   { id: "p12", name: "杨清越", className: "高一1班", probability: 10 },
